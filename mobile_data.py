@@ -47,13 +47,13 @@ while True:
     try:
         hours = float(input("\nEnter screen time (hours/day): "))
         if hours < 0:
-            print("⚠️  Screen time can't be negative. Please try again.")
+            print("Screen time can't be negative. Please try again.")
         elif hours > 24:
-            print("⚠️  Screen time can't exceed 24 hours. Please try again.")
+            print("Screen time can't exceed 24 hours. Please try again.")
         else:
             break
     except ValueError:
-        print("⚠️  Invalid input. Please enter a number like 5 or 6.5")
+        print("Invalid input. Please enter a number like 5 or 6.5")
 
 input_data = pd.DataFrame([[hours]], columns=['ScreenTime'])
 predicted_data = model.predict(input_data)
