@@ -71,7 +71,7 @@ Improve prediction accuracy by considering multiple factors.
 
 | Model                      | R² Score   | MAE (MB/day) |
 | -------------------------- | ---------- | ------------ |
-| Simple Linear Regression   | ~0.85–0.90 | ** 158.37** |
+| Simple Linear Regression   |  0.8769 | ** 158.37** |
 | Multiple Linear Regression | **0.906**  | **137**      |
 
 **Interpretation:**
