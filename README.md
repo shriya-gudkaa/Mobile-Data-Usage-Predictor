@@ -73,7 +73,6 @@ Improve prediction accuracy by considering multiple factors.
 |---------------------------|----------|--------------|
 | Simple Linear Regression  | 0.8769   | 158.37       |
 | Multiple Linear Regression| **0.906**| **137**      |
-**Interpretation:**
 
 * Higher R² → better model fit
 * Lower MAE → more accurate predictions
